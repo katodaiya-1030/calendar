@@ -1,0 +1,31 @@
+.calendar{
+    width: 1200px;
+    height: 1200px;
+    background-color: lightgray;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 24px;
+}
+.calendar th{
+    text-align: center;
+    font-size: 24px;
+}
+.day{
+    font-weight: bold;
+    font-size: 24px;
+}
+.day :nth-child(1){
+    color: red;
+}
+.day :nth-child(7){
+    color: blue;
+}
+.calendar td{
+    border: 1px solid #000;
+    text-align: left;
+    vertical-align: top;
+}
+button{
+    font-size: 24px;
+}
